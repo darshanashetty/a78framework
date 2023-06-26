@@ -2,22 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[bhanu]]>
-    </line>
-    <line>
-      <![CDATA[test1...]]>
+      <![CDATA[Home Page is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-23T08:45:51 IST" name="Suite" finished-at="2023-06-23T08:46:09 IST" duration-ms="17802">
+  <suite started-at="2023-06-26T19:53:58 IST" name="Suite" finished-at="2023-06-26T19:54:40 IST" duration-ms="42130">
     <groups>
     </groups>
-    <test started-at="2023-06-23T08:45:51 IST" name="Test" finished-at="2023-06-23T08:46:09 IST" duration-ms="17802">
-      <class name="script.Test1">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.Test1@6574a52c]" started-at="2023-06-23T08:45:51 IST" name="preCondition" finished-at="2023-06-23T08:46:07 IST" duration-ms="16225" status="PASS">
+    <test started-at="2023-06-26T19:53:58 IST" name="Test" finished-at="2023-06-26T19:54:40 IST" duration-ms="42130">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@243c4f91]" started-at="2023-06-26T19:53:58 IST" name="preCondition" finished-at="2023-06-26T19:54:22 IST" duration-ms="23946" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://www.fb.com]]>
+                <![CDATA[https://demo.actitime.com]]>
               </value>
             </param>
             <param index="1">
@@ -39,21 +36,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="test1()[pri:0, instance:script.Test1@6574a52c]" started-at="2023-06-23T08:46:07 IST" name="test1" finished-at="2023-06-23T08:46:09 IST" duration-ms="1403" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@243c4f91]" started-at="2023-06-26T19:54:22 IST" name="testValidLogin" finished-at="2023-06-26T19:54:40 IST" duration-ms="18053" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[bhanu]]>
-            </line>
-            <line>
-              <![CDATA[test1...]]>
+              <![CDATA[Home Page is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.Test1@6574a52c]" started-at="2023-06-23T08:46:09 IST" name="postCondition" finished-at="2023-06-23T08:46:09 IST" duration-ms="118" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@243c4f91]" started-at="2023-06-26T19:54:40 IST" name="postCondition" finished-at="2023-06-26T19:54:40 IST" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.Test1 -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
